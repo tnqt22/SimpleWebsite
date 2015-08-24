@@ -1,0 +1,170 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+   display: block;
+}
+
+body {
+   color: #666666;
+   background-color: #f9f8f6;
+   background-position: center;
+   font-family: Georgia, Times, serif;
+   line-height: 1.4em;
+   margin: 0px;
+}
+
+.wrapper {
+   width: 940px;
+   margin: 20px auto 20px auto;
+   border: 2px solid #000000;
+   background-color: #ffffff;
+}
+
+header {
+   height: 160px;
+   background-color: #ccffff;
+}
+
+.header-content {
+   width: 940px;
+   height: 80px;
+   margin: 0px;
+   padding: 25px;
+   text-align: left;
+}
+
+nav, footer {
+   clear: both;
+   color: #ffffff;
+   background-color: #aeaca8;
+   height: 30px;
+}
+
+nav ul {
+   margin: 0px;
+   padding: 5px 0px 5px 30px;
+}
+
+nav li {
+   display: inline;
+   margin-right: 40px;
+}
+
+nav li a {
+   color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+   color: #000000;
+}
+
+section.content {
+   float: left;
+   width: 600px;
+   border-right: 1px solid #eeeeee;
+   padding: 15px;
+}
+
+article {
+   clear: both;
+   overflow: auto;
+   width: 100%;
+}
+
+hgroup {
+   margin-top: 40px;
+}
+
+figure {
+   float: left;
+   width: 200px;
+   height: 200px;
+   padding: 5px;
+   margin: 5px;
+   border: 1px solid #eeeeee;
+}
+
+aside {
+   width: 230px;
+   float: left;
+   padding: 0px 0px 0px 20px;
+}
+
+a:hover {
+   color: #3DA1A1;
+   background-color: #efefef;
+}
+
+a {
+   color: #64C6C6;
+   text-decoration: none;
+}
+
+h1, h2, h3 {
+   font-weight: normal;
+}
+
+h2 {
+   margin: 10px 0px 5px 0px;
+   padding: 0px;
+}
+
+h3 {
+   margin: 0px 0px 10px 0px;
+}
+
+aside h2 {
+   padding: 30px 0px 10px 0px;
+   color: #de6581;
+}
+
+footer {
+   font-size: 80%;
+   padding: 7px 0px 0px 20px;
+}
+
+hr {
+   border-bottom: 1px solid #eeeeee;
+}
+
+form {
+   padding: 20px;
+}
+
+table {
+   background-color: #cccccc;
+   padding: 2px;
+}
+tr, th, td{
+   background-color: #efefef;
+   padding: 5px;
+}
+
+.social a {
+  background: #b0b7bf;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.social li {
+   display: inline;
+   /*margin-right: 10px;*/
+}
+
+.social a:hover {
+  background: #778492;
+}
+
+.social a .fa {
+  font-size: 20px;
+  padding-top: 8px;
+}

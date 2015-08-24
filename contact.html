@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Contact</title>
+  	<meta charset="utf-8">
+  	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-content">
+          <h1>Mia Thaonguyen Nguyen</h1>
+          <ul class="social">                  
+            <li><a href="https://www.linkedin.com/pub/mia-thaonguyen-nguyen/89/bb3/169"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/tnqt22"><i class="fa fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></liv>
+            <li><a href="resume.html">Resume</a></liv>
+            <li><a href="contact.html" class="current">Contact</a></liv>
+          </ul>
+        </nav>
+      </header>
+
+			  
+			  <form method="post" action="mailto:tnguye13@ggc.edu">
+        <h3>Contact Form</h3>
+			  <table>
+			  <tr>
+			    <td>First Name:</td>
+          <td><input type="text" name="pfname" id="pfname" required></td> 
+        </tr>
+			  <tr>
+			    <td>Last Name:</td>
+          <td> <input type="text" name="plname" id="plname" required></td> 
+        </tr>
+			  <tr>
+          <td>Email:</td>
+          <td><input type="text" name="email" id="email" required></td> 
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td><input type="text" name="phone" id="phone" required></td> 
+        </tr>
+        <tr>
+          <td>Prefered method <br>of communication:</td>
+          <td>
+            <input type="radio" name="contact" value="email"/>Email<br>
+            <input type="radio" name="contact" value="phone"/>Phone<br>
+          </td>
+        </tr>
+			  
+			  <tr>
+          <td colspan="2">Message: <br>
+            <textarea name="message" id="message" cols="40" rows="5"></textarea> <br>
+          </td>
+        </table>
+        <label><input type="checkbox" name="subscribe"/>Sign me up for email updates</label><br>
+			  <input type="submit"></label> 
+			  </form> 
+
+      <footer>
+        Copyright &copy; ITEC 4450 Fall 2015
+      </footer>
+    </div>
+  </body>
+</html>
